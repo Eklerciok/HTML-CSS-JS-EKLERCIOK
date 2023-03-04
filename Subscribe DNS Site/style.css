@@ -1,0 +1,108 @@
+main{
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    background-color: #3b3b3b;
+    border-radius: 20px;
+    width: 340px;
+    height: 600px;
+    text-align: center;
+    color: white;
+    font-family: 'Inter';
+    display: flexbox; 
+    margin-left: 100px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+.card:hover{
+    transform: scale(1.01);
+    transition: 0.1s;
+}
+.cardbest{
+    border: 2px solid goldenrod;
+    background-color: #3b3b3b;
+    border-radius: 20px;
+    width: 340px;
+    height: 600px;
+    text-align: center;
+    color: white;
+    font-family: 'Inter';
+    display: flexbox; 
+    margin-left: 100px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+.cardbest:hover{
+    transform: scale(1.01);
+    transition: 0.1s;
+}
+#name{
+    font-size: x-large;
+}
+#title{
+    padding-top: 1px;
+}
+#price{
+    font-size: xx-large;
+}
+ul{
+    text-align: left;
+    margin-top: 50px;
+}
+li{
+    margin-top: 10px;
+    max-width: 290px;
+}
+#star{
+    margin-top: 5px;
+    width: 30px;
+}
+#buy{
+    font-size: large;
+    font-family: 'Inter';
+    border: 1px solid #2e2d2d;
+    border-radius: 50px;
+    margin-top: 50px;
+    cursor: pointer;
+    width: 260px;
+    height: 50px;
+    color: whitesmoke;
+    background-color: #404040;
+    transition: 1s;
+}
+#buy:hover{
+    font-size: larger;
+    border: 0px;
+    transition: 1s;
+    border-radius: 0px;
+    width: 340px;
+    background-color: #2e2d2d;
+}
+#buypro{
+    font-size: large;
+    font-family: 'Inter';
+    border: 1px solid #2e2d2d;
+    border-radius: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 260px;
+    height: 50px;
+    color: whitesmoke;
+    background-color: #404040;
+    transition: 1s;
+}
+#buypro:hover{
+    font-size: larger;
+    border: 0px;
+    transition: 1s;
+    border-radius: 0px;
+    width: 340px;
+    background-color: #2e2d2d;
+}
